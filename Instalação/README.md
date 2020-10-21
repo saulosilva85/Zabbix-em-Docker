@@ -43,4 +43,4 @@ Para instalar o zabbix em docker execute comando abaixo:
 
 #### sudo docker container run --name zabbix-server -p 80:80 -p 10050:10050 -v /var/lib/mysql:/var/lib/mysql -d zabbix/zabbix-appliance
 
-apos instalação, informe o ip do servidor no navegador.
+após instalação, informe o ip do servidor no navegador.
