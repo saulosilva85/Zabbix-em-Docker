@@ -40,7 +40,7 @@ Caso queira verificar a versão do docker que foi instalado, execute o comando;
 ## Instalação do Zabbix em Docker
 
 Para instalar o container zabbix em docker execute comando abaixo: 
-Obs: nesse comando foi criado  a porta 80 para acesso do zabbix, a porta 10050 que é a porta do agent e criado um variavel para instalação do banco de dados mysql.
+Obs: nesse comando foi criado um nome para o container "zabbix-server", a porta 80 para acesso ao zabbix, a porta 10050 que é a porta do agent e criado uma variavel para instalação do banco de dados mysql.
 
 #### sudo docker container run --name zabbix-server -p 80:80 -p 10050:10050 -v /var/lib/mysql:/var/lib/mysql -d zabbix/zabbix-appliance
 
