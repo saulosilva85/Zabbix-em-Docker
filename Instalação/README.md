@@ -28,7 +28,7 @@ Execute o seguinte comando para instalar o Docker;
 
 #### sudo apt install docker-ce
 
-Para verificar o status do docker execute o commando abaixo;
+Para verificar o status do docker execute o comando abaixo;
 
 #### sudo systemctl status docker
 
