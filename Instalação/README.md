@@ -44,4 +44,7 @@ Obs: Nesse comando foi criado um nome para o container "zabbix-server", a porta 
 
 #### sudo docker container run --name zabbix-server -p 80:80 -p 10050:10050 -v /var/lib/mysql:/var/lib/mysql -d zabbix/zabbix-appliance
 
-após instalação, informe o ip do servidor no navegador.
+Após instalação, informe o ip do servidor no navegador.
+Para acessar o zabbix deve informar:
+Usuario: Admin (com A maiusculo)
+Senha: zabbix
