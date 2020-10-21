@@ -37,7 +37,7 @@ Caso queira verificar a versão do docker que foi instalado, execute o comando;
 #### docker –version
 
 
-## Instalação do Zabbix em docker
+## Instalação do Zabbix em Docker
 
 Para instalar o container zabbix em docker execute comando abaixo: 
 Obs: nesse comando foi criado  a porta 80 para acesso do zabbix, a porta 10050 que é a porta do agent e criado um variavel para instalação do banco de dados mysql.
