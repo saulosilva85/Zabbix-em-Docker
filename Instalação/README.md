@@ -51,4 +51,5 @@ Para acessar o zabbix deve informar:
 
 
 Usuario: Admin (com A maiusculo)
+
 Senha: zabbix
